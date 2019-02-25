@@ -18,6 +18,9 @@ Copy the three Python files to `~/.gdb/qt5printers/` and add this to your
 Now verify it with your favorite program. Below you can find a quick test
 program.
 
+### Usage on Windows
+To make it work, consider using the `C:\Users\<your_user_name>` folder as `~/`. Also, create an environment variable `HOME`, pointing to `C:\Users\<your_user_name>`.
+
 ### Test program
 Here is a test program (save it as `test.cpp`):
 
